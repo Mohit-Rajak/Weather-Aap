@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weadher Aap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    
+    <div class="cards">
+        <h4> Weather</h4>
+        <div class="search">
+            <input type="text" placeholder="Enter city name" 
+            spellcheck="false">
+            <button><img src="/weaderaap/weadher.img/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            <img src="/weaderaap/weadher.img/rain.png" class="weather-icon" alt="">
+             <h1 class="temp">22°c</h1>
+             <h2 class="city">London</h2>
+             <div class="details">
+                <div class="col">
+                    <img src="/weaderaap/weadher.img/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="/weaderaap/weadher.img/wind.png" alt="">
+                    <div>
+                        <p class="wind">15km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+             </div>
+       </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
